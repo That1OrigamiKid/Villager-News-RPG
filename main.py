@@ -20,7 +20,7 @@ def start():
       startlocation()
 def startlocation():
   os.system('clear')
-  print('Choose a Location')
+  print('Choose a Location (type the number)')
   print('')
   time.sleep(.5)
   print('1. Main Village  (under construction)')
@@ -45,7 +45,7 @@ def startlocation():
     print('this area is under construction')
 def mainvillage():
   os.system('clear')
-  print('Choose a Building')
+  print('Choose a Building (type the number)')
   print('')
   print('1. Jerrys House')
   time.sleep(.1)
@@ -74,7 +74,7 @@ def jerryshouse():
 def homelessvillager():
   os.system('clear')
   print('Homeless Villager: Hello welcome to my shack.')
-  print('what do you want to do')
+  print('what do you want to do (type the number)')
   print('1. Donate 🪙10')
   print('2. say hi')
   print('3. leave')
