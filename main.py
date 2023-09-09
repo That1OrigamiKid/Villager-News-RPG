@@ -1,6 +1,11 @@
 import time
 import os
 def start():
+  print('loading start assets')
+  inventory = {
+      "money": 5
+  }
+  os.system('clear')
   print("Villager News RPG")
   time.sleep(.5)
   print('')
@@ -81,6 +86,7 @@ def homelessvillager():
   print('')
   option = input('')
   if option == '1':
-    if money >= 10:
-      money -= 10
+    if inventory[money] >= 10:
+      inventory[money] -= 10
+      print('thanks for the donation heres a gun')
 start()
